@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - OdooTrainReload@localhost" uuid="7aa45aeb-4fbc-439b-811b-ee391a77bf21">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-scope>OdooTrainReload:public,pg_catalog,postgres</introspection-scope>
+      <resolve-scope>OdooTrainReload:public,postgres</resolve-scope>
+    </data-source>
+  </component>
+</project>
