@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <openerp>
     <data>
-        <!-- a gr-->
+        <!-- a group-->
         <record id="group_manager" model="res.groups">
             <field name="name">OpenAcademy / Manager</field>
+        </record>
+        <!-- a group-->
+        <record id="group_session_read" model="res.groups">
+            <field name="name">OpenAcademy / Session Read</field>
         </record>
         <!-- record rule -->
         <record id="only_responsible_can_modify" model="ir.rule">
@@ -19,6 +23,5 @@
                         ('responsible_id', '=', user.id)]
             </field>
         </record>
-
     </data>
 </openerp>

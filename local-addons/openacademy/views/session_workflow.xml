@@ -9,7 +9,7 @@
 
         <!-- Server action -->
         <record model="ir.actions.server" id="set_session_to_draft">
-            <field name="name">Set session to Draff</field>
+            <field name="name">Set session to Draft</field>
             <field name="model_id" ref="model_openacademy_session"/>
             <field name="code">
                 model.search([('id', 'in', context['active_ids'])]).action_draft()
