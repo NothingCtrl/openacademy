@@ -1,301 +1,78 @@
-2016-08-31 11:10:51,665 20483 INFO ? openerp: OpenERP version 9.0c
-2016-08-31 11:10:51,666 20483 INFO ? openerp: addons paths: ['filestore/addons/9.0', u'/media/thangdb/DATA_1/OneDrive/CODING/odoo-train2/src/odoo/openerp/addons', u'/media/thangdb/DATA_1/OneDrive/CODING/odoo-train2/src/odoo/addons', u'/media/thangdb/DATA_1/OneDrive/CODING/odoo-train2/local-addons', '/media/thangdb/DATA_1/OneDrive/CODING/odoo-source-9.0/odoo/openerp/addons']
-2016-08-31 11:10:51,666 20483 INFO ? openerp: database: default@default:default
-2016-08-31 11:10:51,963 20483 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
-2016-08-31 11:10:55,313 20483 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
-2016-08-31 11:10:56,558 20483 INFO ? openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf
-2016-08-31 11:10:57,160 20483 INFO ? openerp.http: HTTP Configuring static files
-2016-08-31 11:10:57,186 20483 INFO OdooTrainReload openerp.modules.loading: loading 1 modules...
-2016-08-31 11:10:57,196 20483 INFO OdooTrainReload openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
-2016-08-31 11:10:57,339 20483 INFO OdooTrainReload openerp.modules.loading: loading 31 modules...
-2016-08-31 11:10:57,658 20483 INFO OdooTrainReload openerp.modules.module: module openacademy: creating or updating database tables
-2016-08-31 11:10:57,750 20483 INFO OdooTrainReload openerp.modules.loading: loading openacademy/views/views.xml
-2016-08-31 11:10:57,753 20483 INFO OdooTrainReload openerp.modules.loading: loading openacademy/views/templates.xml
-2016-08-31 11:10:57,755 20483 INFO OdooTrainReload openerp.modules.loading: loading openacademy/views/openacademy.xml
-2016-08-31 11:10:57,982 20483 INFO OdooTrainReload openerp.modules.loading: loading openacademy/views/partner.xml
-2016-08-31 11:10:58,196 20483 INFO OdooTrainReload openerp.modules.loading: loading openacademy/views/session_workflow.xml
-2016-08-31 11:10:58,434 20483 INFO OdooTrainReload openerp.modules.loading: 31 modules loaded in 1.10s, 0 queries
-2016-08-31 11:10:58,623 20483 WARNING OdooTrainReload openerp.modules.loading: The model openacademy.session has no access rules, consider adding one. E.g. access_openacademy_session,access_openacademy_session,model_openacademy_session,,1,0,0,0
-2016-08-31 11:10:58,623 20483 WARNING OdooTrainReload openerp.modules.loading: The model openacademy.course has no access rules, consider adding one. E.g. access_openacademy_course,access_openacademy_course,model_openacademy_course,,1,0,0,0
-2016-08-31 11:10:58,702 20483 WARNING OdooTrainReload openerp.modules.loading: Model openacademy.testtest is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
-2016-08-31 11:10:58,703 20483 INFO OdooTrainReload openerp.modules.loading: Modules loaded.
-2016-08-31 11:10:58,704 20483 INFO OdooTrainReload openerp.addons.base.ir.ir_http: Generating routing map
-2016-08-31 11:10:59,457 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web?debug= HTTP/1.1" 200 -
-2016-08-31 11:10:59,879 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/src/css/full.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,899 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/src/fonts/lato/stylesheet.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,899 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/lib/fontawesome/css/font-awesome.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,909 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,909 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/lib/jquery.ui/jquery-ui.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,919 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/lib/select2-bootstrap-css/select2-bootstrap.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,919 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/lib/select2/select2.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,930 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web_editor/static/src/css/web_editor.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,945 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/lib/es5-shim/es5-shim.min.js HTTP/1.1" 200 -
-2016-08-31 11:10:59,949 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/lib/jquery.textext/jquery.textext.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,974 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/lib/jquery.ui.notify/css/ui.notify.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,978 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/lib/nvd3/nv.d3.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,982 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/src/less/web.assets_common/animation.less.css HTTP/1.1" 304 -
-2016-08-31 11:10:59,987 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/src/less/web.assets_common/mimetypes.less.css HTTP/1.1" 304 -
-2016-08-31 11:10:59,994 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/src/css/base.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,997 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /web/static/src/css/data_export.css HTTP/1.1" 200 -
-2016-08-31 11:10:59,998 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:10:59] "GET /base/static/src/css/modules.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,043 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/src/less/web.assets_common/web_editor.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,048 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_planner/static/src/less/web.assets_common/web_planner_common.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,107 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/less/web.assets_backend/variables.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,109 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/less/web.assets_backend/utils.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,112 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/less/web.assets_backend/enterprise_compatibility.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,114 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /website/static/src/less/web.assets_backend/import_bootstrap.less.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,133 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/less/web.assets_backend/modal.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,152 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /crm/static/src/css/crm.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,193 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/less/web.assets_backend/client_action.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,190 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/less/web.assets_backend/notification.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,203 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /calendar/static/src/less/web.assets_backend/calendar.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,216 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /base_import/static/src/less/web.assets_backend/import.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,217 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/less/web.assets_backend/announcement.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,255 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /sales_team/static/src/css/sales_team.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,256 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/less/web.assets_backend/thread.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,265 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/less/web.assets_backend/composer.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,269 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/less/web.assets_backend/chat_window.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,283 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /sales_team/static/src/less/web.assets_backend/sales_team_dashboard.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,322 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_calendar/static/lib/fullcalendar/css/fullcalendar.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,332 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/summernote.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,334 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/less/web.assets_backend/chatter.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,344 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/src/css/snippets.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,349 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/src/css/editor.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,351 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_tip/static/src/less/web.assets_backend/tip.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,352 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/src/css/backend.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,364 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_gantt8/static/lib/dhtmlxGantt/codebase/dhtmlxgantt.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,365 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_gantt8/static/src/css/gantt.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,389 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_view_editor/static/src/css/view_editor.css HTTP/1.1" 200 -
-2016-08-31 11:11:00,395 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_calendar/static/src/less/web.assets_backend/web_calendar.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,415 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/underscore/underscore.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,417 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/underscore.string/lib/underscore.string.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,425 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_diagram/static/src/less/web.assets_backend/diagram_view.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,433 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/spinjs/spin.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,444 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/moment/moment.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,447 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/autosize/autosize.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,447 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,473 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_kanban/static/src/less/web.assets_backend/kanban_dashboard.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,479 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_settings_dashboard/static/src/less/web.assets_backend/dashboard.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,480 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.ui/jquery-ui.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,482 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery/jquery.browser.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,483 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_kanban/static/src/less/web.assets_backend/kanban_view.less.css HTTP/1.1" 304 -
-2016-08-31 11:11:00,495 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.blockUI/jquery.blockUI.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,499 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.placeholder/jquery.placeholder.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,502 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.timeago/jquery.timeago.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,504 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.form/jquery.form.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,506 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.ba-bbq/jquery.ba-bbq.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,510 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/boot.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,521 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/class.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,523 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/qweb/qweb2.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,528 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/translation.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,534 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.hotkeys/jquery.hotkeys.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,540 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/registry.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,541 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/ajax.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,548 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/time.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,551 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/mixins.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,551 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/widget.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,553 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/session.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,560 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/model.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,562 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/utils.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,566 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/core.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,568 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/dialog.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,574 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/tour.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,579 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,579 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/test/menu.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,582 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/select2/select2.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,585 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_planner/static/src/js/web_planner_common.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,585 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/test/x2many.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,588 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/src/js/base.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,592 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/src/js/snippets.animation.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,596 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.scrollTo/jquery.scrollTo.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,597 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.validate/jquery.validate.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,599 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/alert.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,603 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/button.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,605 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.textext/jquery.textext.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,608 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/collapse.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,605 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/affix.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,613 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/dropdown.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,615 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/modal.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,618 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/carousel.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,625 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/popover.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,625 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/tooltip.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,627 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/transition.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,629 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/scrollspy.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,631 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/jquery.ui.notify/js/jquery.notify.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,634 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/bootstrap/js/tab.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,636 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/nvd3/d3.v3.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,640 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/nvd3/nv.d3.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,646 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/backbone/backbone.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,647 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/data_model.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,648 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/view.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,649 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/formats.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,651 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/lib/py.js/lib/py.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,654 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/action_manager.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,655 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/pyeval.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,657 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/control_panel.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,670 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/misc.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,674 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/compatibility.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,675 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/view_manager.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,681 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/data.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,682 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/session_instance.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,684 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/web_client.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,686 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/framework/crash_manager.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,691 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/debug_manager.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,694 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/data_export.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,699 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/change_password.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,700 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/loading.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,702 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/date_picker.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,704 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/notification.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,707 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/sidebar.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,715 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/priority.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,716 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/pager.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,719 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/progress_bar.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,728 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/user_menu.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,733 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/menu.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,734 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/widgets/systray_menu.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,738 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/list_common.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,743 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/form_view.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,744 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/form_common.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,747 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/list_view.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,754 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/graph_view.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,761 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/pivot_view.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,761 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/form_widgets.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,761 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/graph_widget.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,763 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/list_view_editable.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,764 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/form_relational_widgets.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,778 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/search_view.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,784 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/search_menus.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,797 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/search_filters.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,798 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/search_inputs.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,800 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/apps.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,800 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web/static/src/js/views/tree_view.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,801 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /base_import/static/src/js/import.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,806 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /base_import/static/lib/javascript-state-machine/state-machine.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,809 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /calendar/static/src/js/base_calendar.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,818 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /crm/static/src/js/web_planner_crm.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,819 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /crm/static/src/js/sales_team_dashboard.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,826 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /bus/static/src/js/bus.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,827 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/js/announcement.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,827 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /im_odoo_support/static/src/js/im_odoo_support.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,832 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/js/many2many_tags_email.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,840 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/js/client_action.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,842 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/js/composer.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,843 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/js/chat_window.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,845 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/js/chat_manager.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,853 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/js/chatter.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,861 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/js/thread.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,866 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/js/systray.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,866 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail_tip/static/src/js/mail_tip.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,866 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /mail/static/src/js/window_manager.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,867 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_planner/static/src/js/web_planner_backend.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,875 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /sales_team/static/src/js/sales_team.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,879 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /sales_team/static/src/js/sales_team_dashboard.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,885 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /report/static/src/js/qwebactionmanager.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,895 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_tip/static/src/js/tip.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,897 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_calendar/static/src/js/widgets.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,898 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_diagram/static/lib/js/raphael.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,898 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_calendar/static/lib/fullcalendar/js/fullcalendar.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,898 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_diagram/static/lib/js/jquery.mousewheel.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,903 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_calendar/static/src/js/web_calendar.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,909 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_diagram/static/src/js/graph.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,922 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/core/func.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,921 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_diagram/static/src/js/diagram.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,921 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_diagram/static/src/js/vec2.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,927 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/core/agent.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,928 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/core/list.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,929 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/core/async.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,951 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/core/key.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,951 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/core/dom.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,951 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/editing/Style.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,953 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/core/range.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,962 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/editing/Bullet.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,963 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/editing/History.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,971 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/module/Button.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,972 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/editing/Typing.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,973 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/module/Editor.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,976 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/editing/Table.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,986 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/module/Codeview.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,988 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/module/Handle.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,991 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/module/Clipboard.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,999 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/module/ImageDialog.js HTTP/1.1" 200 -
-2016-08-31 11:11:00,999 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:00] "GET /web_editor/static/lib/summernote/src/js/module/DragAndDrop.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,000 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/summernote/src/js/module/Fullscreen.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,000 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/summernote/src/js/module/HelpDialog.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,007 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/summernote/src/js/module/LinkDialog.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,007 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/summernote/src/js/module/Popover.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,013 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/summernote/src/js/module/Statusbar.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,019 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/summernote/src/js/Renderer.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,021 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/summernote/src/js/summernote.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,023 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/summernote/src/js/EventHandler.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,026 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/summernote/src/js/module/Toolbar.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,027 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/summernote.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,035 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/nearest/jquery.nearest.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,041 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/editor.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,047 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/widgets.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,047 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/rte.summernote.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,049 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/rte.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,057 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/tour.rte.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,057 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/snippets.editor.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,058 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/snippets.options.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,061 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/transcoder.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,066 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/translator.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,068 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/js/backend.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,077 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_gantt8/static/lib/dhtmlxGantt/sources/dhtmlxcommon.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,078 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_gantt8/static/lib/dhtmlxGantt/sources/dhtmlxgantt.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,093 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_kanban/static/src/js/kanban_relational.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,089 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_gantt8/static/src/js/gantt.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,093 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_kanban/static/src/js/kanban_record.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,101 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_kanban/static/src/js/kanban_column.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,105 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_kanban/static/src/js/kanban_widgets.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,105 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_kanban/static/src/js/kanban_view.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,105 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_kanban/static/src/js/kanban_quick_create.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,107 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_kanban/static/src/js/compatibility.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,111 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_kanban_gauge/static/lib/justgage/justgage.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,121 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_kanban_gauge/static/src/js/kanban_gauge.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,122 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_settings_dashboard/static/src/js/dashboard.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,126 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_view_editor/static/src/js/view_editor.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,127 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/lib/summernote/src/js/defaults.js HTTP/1.1" 200 -
-2016-08-31 11:11:01,140 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web/binary/company_logo HTTP/1.1" 304 -
-2016-08-31 11:11:01,384 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/xml/editor.xml?debug=1472641861381 HTTP/1.1" 200 -
-2016-08-31 11:11:01,408 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /web/dataset/call HTTP/1.1" 200 -
-2016-08-31 11:11:01,453 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
-2016-08-31 11:11:01,472 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 200 -
-2016-08-31 11:11:01,475 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/xml/snippets.xml?debug=1472641861453 HTTP/1.1" 200 -
-2016-08-31 11:11:01,484 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
-2016-08-31 11:11:01,494 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web_editor/static/src/xml/translator.xml?debug=1472641861486 HTTP/1.1" 200 -
-2016-08-31 11:11:01,563 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /mail/client_action HTTP/1.1" 200 -
-2016-08-31 11:11:01,596 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /mail/chat_init HTTP/1.1" 200 -
-2016-08-31 11:11:01,608 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
-2016-08-31 11:11:01,642 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /web/webclient/translations HTTP/1.1" 200 -
-2016-08-31 11:11:01,778 20483 INFO OdooTrainReload openerp.service.common: successful login from 'admin' using database 'odootrainreload'
-2016-08-31 11:11:01,787 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /web/session/get_session_info HTTP/1.1" 200 -
-2016-08-31 11:11:01,895 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /web/proxy/load HTTP/1.1" 200 -
-2016-08-31 11:11:01,941 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /web/session/modules HTTP/1.1" 200 -
-2016-08-31 11:11:01,970 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /web/dataset/search_read HTTP/1.1" 200 -
-2016-08-31 11:11:01,972 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "POST /web/webclient/translations HTTP/1.1" 200 -
-2016-08-31 11:11:01,980 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:01] "GET /web/webclient/locale/en_US HTTP/1.1" 200 -
-2016-08-31 11:11:02,012 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "GET /web/binary/company_logo?db=OdooTrainReload&company=1 HTTP/1.1" 304 -
-2016-08-31 11:11:02,022 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
-2016-08-31 11:11:02,089 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/ir.config_parameter/get_param HTTP/1.1" 200 -
-2016-08-31 11:11:02,105 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 304 -
-2016-08-31 11:11:02,117 20483 INFO ? werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 -
-2016-08-31 11:11:02,161 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /calendar/notify HTTP/1.1" 200 -
-2016-08-31 11:11:02,198 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
-2016-08-31 11:11:02,211 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
-2016-08-31 11:11:02,284 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
-2016-08-31 11:11:02,297 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/action/load HTTP/1.1" 200 -
-2016-08-31 11:11:02,356 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/openacademy.session/fields_view_get HTTP/1.1" 200 -
-2016-08-31 11:11:02,403 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/openacademy.session/fields_get HTTP/1.1" 200 -
-2016-08-31 11:11:02,431 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
-2016-08-31 11:11:02,449 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/openacademy.session/fields_view_get HTTP/1.1" 200 -
-2016-08-31 11:11:02,537 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/openacademy.session/fields_view_get HTTP/1.1" 200 -
-2016-08-31 11:11:02,640 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
-2016-08-31 11:11:02,650 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/menu/load_needaction HTTP/1.1" 200 -
-2016-08-31 11:11:02,712 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/openacademy.session/fields_view_get HTTP/1.1" 200 -
-2016-08-31 11:11:02,781 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/openacademy.session/read HTTP/1.1" 200 -
-2016-08-31 11:11:02,798 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/openacademy.session/read HTTP/1.1" 200 -
-2016-08-31 11:11:02,839 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
-2016-08-31 11:11:02,861 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
-2016-08-31 11:11:02,971 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
-2016-08-31 11:11:02,997 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:02] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 -
-2016-08-31 11:11:51,688 20483 INFO OdooTrainReload werkzeug: 127.0.0.1 - - [31/Aug/2016 11:11:51] "POST /longpolling/poll HTTP/1.1" 200 -
+2016-10-04 14:23:53,379 6966 INFO ? openerp: OpenERP version 9.0c
+2016-10-04 14:23:53,380 6966 INFO ? openerp: addons paths: ['filestore/addons/9.0', u'/media/thangdb/DATA/coding/openacademy/src/odoo/openerp/addons', u'/media/thangdb/DATA/coding/openacademy/src/odoo/addons', u'/media/thangdb/DATA/coding/openacademy/local-addons', '/media/thangdb/DATA/coding/Odoo9/odoo/openerp/addons']
+2016-10-04 14:23:53,380 6966 INFO ? openerp: database: default@default:default
+2016-10-04 14:23:54,057 6966 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2016-10-04 14:24:05,921 6966 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2016-10-04 14:24:08,797 6966 INFO ? openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf
+2016-10-04 14:24:08,988 6966 INFO OpenAcademy openerp.modules.loading: loading 1 modules...
+2016-10-04 14:24:09,263 6966 INFO OpenAcademy openerp.modules.loading: 1 modules loaded in 0.27s, 0 queries
+2016-10-04 14:24:10,379 6966 INFO ? openerp.http: HTTP Configuring static files
+2016-10-04 14:24:10,698 6966 INFO OpenAcademy openerp.modules.loading: loading 44 modules...
+2016-10-04 14:24:11,304 6966 INFO OpenAcademy openerp.modules.module: module openacademy: creating or updating database tables
+2016-10-04 14:24:11,506 6966 INFO OpenAcademy openerp.modules.loading: loading openacademy/security/security.xml
+2016-10-04 14:24:12,437 6966 INFO OpenAcademy openerp.modules.loading: loading openacademy/security/ir.model.access.csv
+2016-10-04 14:24:12,540 6966 INFO OpenAcademy openerp.modules.loading: loading openacademy/views/views.xml
+2016-10-04 14:24:12,548 6966 INFO OpenAcademy openerp.modules.loading: loading openacademy/views/templates.xml
+2016-10-04 14:24:12,554 6966 INFO OpenAcademy openerp.modules.loading: loading openacademy/views/openacademy.xml
+2016-10-04 14:24:13,140 6966 INFO OpenAcademy openerp.models.unlink: User #1 deleted ir.values records with IDs: [10]
+2016-10-04 14:24:13,163 6966 INFO OpenAcademy openerp.modules.loading: loading openacademy/views/partner.xml
+2016-10-04 14:24:13,349 6966 INFO OpenAcademy openerp.modules.loading: loading openacademy/views/session_workflow.xml
+2016-10-04 14:24:13,449 6966 INFO OpenAcademy openerp.modules.loading: loading openacademy/views/session_board.xml
+2016-10-04 14:24:13,580 6966 INFO OpenAcademy openerp.modules.loading: loading openacademy/reports.xml
+2016-10-04 14:24:13,613 6966 INFO OpenAcademy openerp.models.unlink: User #1 deleted ir.values records with IDs: [11]
+2016-10-04 14:24:14,455 6966 INFO OpenAcademy openerp.modules.loading: 44 modules loaded in 3.76s, 0 queries
+2016-10-04 14:24:15,329 6966 WARNING OpenAcademy openerp.modules.loading: The model oepetstore.message_of_the_day has no access rules, consider adding one. E.g. access_oepetstore_message_of_the_day,access_oepetstore_message_of_the_day,model_oepetstore_message_of_the_day,,1,0,0,0
+2016-10-04 14:24:15,748 6966 INFO OpenAcademy openerp.modules.loading: Modules loaded.
+2016-10-04 14:24:15,751 6966 INFO OpenAcademy openerp.addons.base.ir.ir_http: Generating routing map
+2016-10-04 14:24:15,753 6966 INFO OpenAcademy openerp.addons.base.ir.ir_http: Generating routing map
+2016-10-04 14:24:18,460 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:18] "GET /web/session/logout HTTP/1.1" 303 -
+2016-10-04 14:24:18,511 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:18] "GET /web HTTP/1.1" 303 -
+2016-10-04 14:24:18,547 6966 INFO OpenAcademy openerp.addons.base.ir.ir_model: Access Denied by ACLs for operation: read, uid: None, model: bus.presence
+2016-10-04 14:24:18,567 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:18] "POST /longpolling/poll HTTP/1.1" 200 -
+2016-10-04 14:24:18,648 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:18] "GET /web/login HTTP/1.1" 200 -
+2016-10-04 14:24:21,899 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:21] "GET /web/database/manager HTTP/1.1" 200 -
+2016-10-04 14:24:31,193 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:31] "GET /web?db=OpenAcademy HTTP/1.1" 303 -
+2016-10-04 14:24:31,226 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:31] "GET /web/login HTTP/1.1" 200 -
+2016-10-04 14:24:35,609 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:35] "POST /web/login HTTP/1.1" 200 -
+2016-10-04 14:24:37,569 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:37] "GET /web HTTP/1.1" 200 -
+2016-10-04 14:24:38,828 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:38] "POST /web/dataset/call HTTP/1.1" 200 -
+2016-10-04 14:24:39,079 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:39] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2016-10-04 14:24:39,083 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:39] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2016-10-04 14:24:39,153 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:39] "POST /web/webclient/translations HTTP/1.1" 200 -
+2016-10-04 14:24:39,276 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:39] "POST /mail/client_action HTTP/1.1" 200 -
+2016-10-04 14:24:39,337 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:39] "POST /mail/chat_init HTTP/1.1" 200 -
+2016-10-04 14:24:39,614 6966 INFO OpenAcademy openerp.service.common: successful login from 'admin' using database 'openacademy'
+2016-10-04 14:24:39,625 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:39] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2016-10-04 14:24:39,896 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:39] "POST /web/proxy/load HTTP/1.1" 200 -
+2016-10-04 14:24:40,027 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/session/modules HTTP/1.1" 200 -
+2016-10-04 14:24:40,092 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2016-10-04 14:24:40,095 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/webclient/translations HTTP/1.1" 200 -
+2016-10-04 14:24:40,186 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2016-10-04 14:24:40,248 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/dataset/call_kw/ir.config_parameter/get_param HTTP/1.1" 200 -
+2016-10-04 14:24:40,331 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2016-10-04 14:24:40,393 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2016-10-04 14:24:40,440 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2016-10-04 14:24:40,500 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2016-10-04 14:24:40,636 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/action/load HTTP/1.1" 200 -
+2016-10-04 14:24:40,856 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2016-10-04 14:24:40,990 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:40] "POST /web/dataset/call_kw/mail.message/fields_view_get HTTP/1.1" 200 -
+2016-10-04 14:24:41,027 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:41] "POST /web/dataset/call_kw/mail.message/fields_get HTTP/1.1" 200 -
+2016-10-04 14:24:41,048 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:41] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2016-10-04 14:24:41,090 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:41] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 -
+2016-10-04 14:24:44,640 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:44] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2016-10-04 14:24:44,650 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:44] "POST /web/action/load HTTP/1.1" 200 -
+2016-10-04 14:24:47,664 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:47] "POST /web/action/load HTTP/1.1" 200 -
+2016-10-04 14:24:47,697 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:47] "POST /web/dataset/call_kw/oepetstore.message_of_the_day/fields_view_get HTTP/1.1" 200 -
+2016-10-04 14:24:47,794 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:47] "POST /web/dataset/call_kw/oepetstore.message_of_the_day/fields_get HTTP/1.1" 200 -
+2016-10-04 14:24:47,801 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:47] "POST /web/dataset/call_kw/oepetstore.message_of_the_day/fields_view_get HTTP/1.1" 200 -
+2016-10-04 14:24:47,807 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:47] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2016-10-04 14:24:47,878 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:47] "POST /web/dataset/call_kw/oepetstore.message_of_the_day/fields_view_get HTTP/1.1" 200 -
+2016-10-04 14:24:47,936 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:47] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2016-10-04 14:24:48,792 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:48] "POST /web/action/load HTTP/1.1" 200 -
+2016-10-04 14:24:49,300 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:49] "POST /web/action/load HTTP/1.1" 200 -
+2016-10-04 14:24:49,328 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:49] "POST /web/dataset/call_kw/product.product/fields_view_get HTTP/1.1" 200 -
+2016-10-04 14:24:49,411 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:49] "POST /web/dataset/call_kw/product.product/fields_view_get HTTP/1.1" 200 -
+2016-10-04 14:24:49,434 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:49] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2016-10-04 14:24:49,450 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:49] "POST /web/dataset/call_kw/product.product/fields_get HTTP/1.1" 200 -
+2016-10-04 14:24:49,531 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:24:49] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2016-10-04 14:25:29,504 6966 INFO OpenAcademy werkzeug: 127.0.0.1 - - [04/Oct/2016 14:25:29] "POST /longpolling/poll HTTP/1.1" 200 -

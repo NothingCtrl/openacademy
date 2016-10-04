@@ -2,10 +2,14 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="PostgreSQL - OdooTrainReload@localhost" uuid="7aa45aeb-4fbc-439b-811b-ee391a77bf21">
+      <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
-      <introspection-scope>OdooTrainReload:public,pg_catalog,postgres</introspection-scope>
-      <resolve-scope>OdooTrainReload:public,postgres</resolve-scope>
+      <introspection-scope>OdooTrainReload:pg_catalog,postgres,public</introspection-scope>
+      <resolve-scope>OdooTrainReload:postgres,public</resolve-scope>
     </data-source>
   </component>
 </project>
